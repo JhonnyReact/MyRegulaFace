@@ -61,9 +61,9 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation ("com.regula.face:api:6.3.+@aar"){
+    implementation("com.regula.face:api:+@aar") {
         isTransitive = true
     }
 
-    implementation ("com.regula.face.core:match:6.3.+@aar")
+    implementation("com.regula.face.core:match:+@aar")
 }
